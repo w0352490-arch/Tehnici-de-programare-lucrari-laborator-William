@@ -3,6 +3,7 @@ from checker import build_url, check_headers, is_https, retry_check, scan_sites,
 g=build_url("https://example.com", "/Login")
 print (g)
 u=is_https("https://example.com")
+print (u)
 # Partea 2: apeluri pentru show_response
 f=show_response("https://httpbin.org/html")
 print(f)
